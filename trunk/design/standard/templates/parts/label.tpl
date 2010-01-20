@@ -1,0 +1,1 @@
+<label for="{$form_field_name}">{$label}{if $validation_rules|contains( 'not_empty')} <strong>*</strong>{/if}</label>

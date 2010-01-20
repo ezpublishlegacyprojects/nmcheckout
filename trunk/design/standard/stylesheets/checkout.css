@@ -1,0 +1,215 @@
+ol.forms {
+	float: left;
+	list-style: none;
+	width: 100%;
+	margin: 0;
+}
+ol.forms li {
+	clear: both;
+	float: left;
+	margin: 0 0 10px;
+	width: 100%;
+}
+ol.forms label {
+	cursor: pointer;
+	display: block;
+	float: left;
+	margin: 0 5px 0 0;
+	width: 100px;
+	text-align: right;
+}
+
+#invoice-as-delivery {
+	margin-left: 110px;
+}
+
+.checkout-box fieldset, #register-order fieldset, #nmcheckout-order-view fieldset {
+	border:1px solid #CCCCC3;
+	padding:0.5em;	
+}
+
+fieldset legend {
+	font-weight: bold;
+}
+
+div.shop-basket ul {
+margin:0;
+padding:0;
+}
+
+div.shop-basket ul li {
+display:block;
+float:left;
+list-style-image:none;
+list-style-type:none;
+margin-right:1em;
+padding:0;
+}
+
+div.shop-basket ul li.selected {
+font-weight:bold;
+}
+
+ol.forms input, ol.forms textarea, ol.forms select {
+	font: inherit;
+	padding: 2px;
+	width: 200px;
+}
+ol.forms textarea { height: 200px; }
+ol.forms li.grouping label { margin: 0; width: auto; }
+ol.forms li.grouping { margin-bottom: 0; }
+ol.forms li.grouping ul { list-style: none; margin-left: 100px; }
+ol.forms li.grouping ul label {
+	display: inline;
+	float: none;
+	font-weight: normal;
+	margin: 0 0 0 10px;
+	width: auto;
+}
+ol.forms li.grouping ul input { width: auto; }
+ol.forms li.buttons { float: none; margin-left: 100px; width: auto; }
+ol.forms .extra-small { width: 50px; }
+ol.forms .small { width: 100px; }
+ol.forms .medium { width: 150px; }
+
+#delivery-address, #delivery, #existing-client, fieldset#comment {
+	width: 49%;
+	float: left;
+	margin-right: 1%;
+}
+
+#delivery, #comment {
+	clear: both;	
+}
+
+#register-order label.inline {
+	display: inline;
+}
+
+li.grouping ul {
+	margin: 0;
+}
+
+ol.forms li.grouping ul li {
+	clear: none;
+	background-image: none;
+}
+
+#delivery-address ol {
+	margin-top: 1.5em;
+}
+
+#register-order .buttonblock {
+	clear: both;
+}
+
+.validation-errors {
+	border: 2px dotted red;
+	padding: 3px;
+	margin: 3px 0 0 105px;
+	width: 196px;
+	clear: both;
+}
+
+.readonly {
+	background-color: #eeeeee;
+	background-image: none !important;
+	color: #aaaaaa;
+}
+
+/* simple css-based tooltip */ 
+div.tooltip { 
+    background-color:#000; 
+    border:1px solid #fff; 
+    padding:10px 15px; 
+    width:200px; 
+    display:none; 
+    color:#fff; 
+    text-align:left; 
+    font-size:12px; 
+ 
+    /* outline radius for mozilla/firefox only */ 
+    -moz-box-shadow:0 0 10px #000; 
+    -webkit-box-shadow:0 0 10px #000; 
+}
+
+dl {
+	padding: 0 0 1em .5em;
+}
+
+dt {
+	float: left;
+	clear: left;
+	width: 120px;
+	font-weight: bold;
+}
+
+dt:after {
+	content: ":";
+}
+
+dd {
+	margin: 0 0 0 110px;
+	padding: 0 0 1px 0;
+}
+
+#nmcheckout-order-view {
+	padding-bottom: 2em;
+	overflow: hidden;
+}
+
+.clear {
+	clear: both;
+}
+.error {
+	color: #FF0000;
+	padding-bottom: 15px;
+}
+#product_list {
+	clear: both;
+}
+#product_list .amount {
+	width: 50px;
+}
+#product_list .error {
+	padding: 0px;
+}
+#register-order div.box-content  {
+	overflow: hidden;
+}
+
+table.nmcheckout td.nmcheckout_sum, #nmcheckout-order-view .amount  {
+	text-align: right;
+}
+
+/* Mypage (generic) */
+.shop-mypage table {border-collapse: collapse;  margin: 1em 0;}
+.shop-mypage table td,
+.shop-mypage table th { padding: 4px 5px; border: 1px solid #ccc; }
+.shop-mypage table th {text-alignd: left; background: #ddd; white-space: nowrap; }
+.shop-mypage table tr .order { text-align: left;  }
+.shop-mypage table tr .cash {max-width: 50px; white-space: nowrap; padding-right: 10px;}
+.shop-mypage table tr td.cash { text-align: right; }
+.shop-mypage table tr td.date, 
+.shop-mypage table tr td.status {text-align: center;}
+.shop-mypage table tr th.tight {text-align: center;}
+.shop-mypage table tr.bgdark,
+.shop-mypage table tr:nth-child(odd) {background: #f2f2f2;}
+
+/* nmcheckout-order-view */
+#nmcheckout-order-view dl.last {margin-bottom: 2em;}
+
+#register-order #terms_text {
+	background-color:white;
+	border:1px solid #CCD1D0;
+	height:150px;
+	overflow:auto;
+	padding:10px;
+}
+#register-order #shopping-terms {
+	clear: both;
+}
+ol.forms input.checkbox {
+	width: auto;
+	float: left;
+}
